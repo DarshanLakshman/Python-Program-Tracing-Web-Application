@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const nextButton = document.getElementById("nextButton");
     const outputTab = document.getElementById("outputTab");
     const python3Tab = document.getElementById("python3Tab");
+    //y
 
     const codeEditor = CodeMirror.fromTextArea(document.getElementById("codeEditor"), {
         lineNumbers: true,

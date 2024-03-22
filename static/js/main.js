@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const resultContainer = document.getElementById("resultContainer");
     const nextButton = document.getElementById("nextButton");
     const outputTab = document.getElementById("outputTab");
+    const inputTerminal = document.getElementById("inputBox");
     const python3Tab = document.getElementById("python3Tab");
     //y
 
@@ -50,19 +51,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     runButton.addEventListener("click", async function () {
-
+        console.log("click_event")
         appData.currentRowTracker = 0;
         appData.executionOrder = [];
         appData.traceTable = [];
 
         const code = codeEditor.getValue();
+        const user_inputs = inputTerminal.value;
 
         const response = await fetch('/generate_trace', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({ code })
+            body: JSON.stringify({ code, user_inputs })
         });
 
         const result = await response.json();

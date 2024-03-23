@@ -1,2 +1,3 @@
 Flask==2.2.2
 pytracertool==2.0.4
+Gunicorn

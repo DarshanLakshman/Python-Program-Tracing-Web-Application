@@ -253,3 +253,11 @@ th, td {
     font-weight: bold;
 }
 
+#inputBox{
+
+    overflow: auto;
+    background-color: #333;
+
+    color: #fff;
+}
+

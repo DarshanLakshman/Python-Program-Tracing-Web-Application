@@ -37,7 +37,7 @@ def generate_trace():
     if request.method == "POST":
         data = request.json
         
-        print(data)
+        #print(data)
         code = data.get("code")
         inputs = data.get("user_inputs")
         
@@ -65,10 +65,10 @@ def generate_trace():
 
         try:
 
-            print("Received code:", code)
+            #print("Received code:", code)
             userCode = tracer.CodeTracer(code,inputs)
             userCode.generate_trace_table()
-            print(userCode.execution_order)
+            #print(userCode.execution_order)
             return jsonify(
                 exitCode=0,
                 traceTable=(userCode.trace_table),

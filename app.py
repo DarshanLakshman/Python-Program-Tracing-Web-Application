@@ -55,7 +55,7 @@ def generate_trace():
             sys.stdin = input_stream
 
             exec(code)
-            #sys.stdin = sys.__stdin__
+            
 
         except Exception as err:
             traceback_str = traceback.format_exc()

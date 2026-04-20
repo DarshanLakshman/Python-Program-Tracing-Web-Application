@@ -23,16 +23,16 @@ A web-based educational platform designed to help users visualize the execution 
 
 ## Project Structure
 
-    ├── app.py              # Main Flask application controller
-    ├── errors.py           # Custom exception handling for tracing logic
-    ├── requirements.txt    # Project dependencies
-    ├── static/             # CSS, JavaScript, and favicon
-    └── templates/          # HTML interface files
-        ├── base.html       # Core layout
-        ├── index.html      # Side-by-side visualization view
-        ├── index2.html     # Top-to-bottom visualization view
-        ├── information.html# Informational page
-        └── documentation_display.html # PyTracer documentation
+    ├── app.py                            # Main Flask application controller
+    ├── errors.py                         # Custom exception handling for tracing logic
+    ├── requirements.txt                  # Project dependencies
+    ├── static/                           # CSS, JavaScript, and favicon
+    └── templates/                        # HTML interface files
+        ├── base.html                     # Core layout
+        ├── index.html                    # Side-by-side visualization view
+        ├── index2.html                   # Top-to-bottom visualization view
+        ├── information.html              # Informational page
+        └── documentation_display.html    # PyTracer documentation
 
 ## Installation & Usage Locally
 

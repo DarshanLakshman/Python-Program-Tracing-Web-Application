@@ -21,7 +21,7 @@ A web-based educational platform designed to help users visualize the execution 
 * **Backend:** Python, Flask
 * **Frontend:** HTML5, Bootstrap 5, FontAwesome, CodeMirror
 
-## 📂 Project Structure
+## Project Structure
 
     ├── app.py              # Main Flask application controller
     ├── errors.py           # Custom exception handling for tracing logic

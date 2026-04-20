@@ -37,8 +37,8 @@ A web-based educational platform designed to help users visualize the execution 
 ## Installation & Usage Locally
 
 ### 1. Clone the repository
-    git clone <your-repository-url>
-    cd <your-project-directory>
+    git clone https://github.com/DarshanLakshman/Python-Program-Tracing-Web-Application
+    cd Python-Program-Tracing-Web-Application
 
 ### 2. Install dependencies
 Ensure you are in the project root directory, then install the required packages:
